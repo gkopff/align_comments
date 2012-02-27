@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <viewerContribution
+            targetID="#CompilationUnitEditorContext"
+            id="align_comments.contribution1">
+         <action
+               label="Align comments"
+               class="align_comments.popup.actions.AlignCommentsAction"
+               menubarPath="group.add"
+               id="align_comments.newAction">
+         </action>
+      </viewerContribution>
+   </extension>
+</plugin>
